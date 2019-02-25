@@ -6,76 +6,16 @@
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
     <title>Document</title>
-    <style>
-        h1,
-        h2,
-        h6 {
-            align-content: center;
-        }
-
-        body {
-            background: grey;
-            margin: 0;
-            padding: 0;
-        }
-
-        header nav ul {
-            background: black;
-            color: lightgrey;
-            align-content: center;
-            padding: 20px;
-            display: flex;
-            flex-direction: row;
-        }
-
-        section {
-            background: white;
-            padding: 20px;
-            margin: 20px;
-        }
-
-        footer nav {
-            background: black;
-            color: grey;
-            align-content: center;
-            padding: 20px;
-            display: flex;
-            flex-direction: row;
-        }
-        li:hover {
-            color: black;
-            background: white;
-        }
-
-        div {
-            /* display: inline-block; */
-            width: 140px;
-            margin: auto;
-            background: silver;
-        }
-        ul{
-            list-style-type: none;
-        }
-
-        ol {
-            list-style-type: lower-alpha;
-            color: black;
-        }
-
-        li {
-            /* display: inline-block; */
-            margin-right: 30px;
-        }
-    </style>
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="../html/gallery.html">Gallery</a></li>
-                <li><a href="../html/contact.html">Contact Us</a></li>
+                li class="clickable"><a href="../html/index.html">Home</a></li>
+                <li class="clickable"><a href="../html/gallery.html">Gallery</a></li>
+                <li class="clickable"><a href="../html/contact.html">Contact Us</a></li>
             </ul>
         </nav>
     </header>
@@ -96,9 +36,11 @@
     </section>
     <footer>
         <nav>
-            <div>First</div>
-            <div>Second</div>
-            <div>Third</div>
+            <ul>
+                <li><a href="../html/index.html">Home</a></li>
+                <li><a href="../html/gallery.html">Gallery</a></li>
+                <li><a href="../html/contact.html">Contact Us</a></li>
+            </ul>
         </nav>
     </footer>
 </body>

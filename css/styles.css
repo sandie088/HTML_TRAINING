@@ -1,0 +1,66 @@
+body {
+    background: grey;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    background: black;
+    color: lightgrey;
+    align-content: center;
+    /* padding: 20px; */
+    display: flex;
+    flex-direction: row;
+}
+
+section {
+    background: white;
+    /* padding: 20px; */
+    /* margin: 20px; */
+}
+
+footer nav ul{
+    background: black;
+    color: grey;
+    align-content: center;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+li.clickable:hover {
+    color: black;
+    background: white;
+}
+
+div {
+    /* display: inline-block; */
+    width: 150px;
+    /* margin: auto; */
+    /* padding: 10px; */
+    background: silver;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ol {
+    list-style-type: lower-alpha;
+    color: black;
+}
+
+li.clickable {
+    /* display: inline-block; */
+    /* margin-right: 30px; */
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+}
+li {
+    /* display: inline-block; */
+    /* margin-right: 30px; */
+    text-align: center;
+}
