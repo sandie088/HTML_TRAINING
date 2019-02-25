@@ -1,9 +1,16 @@
 body {
-    background: grey;
-    margin: 0;
-    padding: 0;
+    background: black;
+    margin: auto;
 }
 
+header .banner
+{
+    background-image: url(../images/header_banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 400px;
+}
 nav ul {
     background: black;
     color: lightgrey;
@@ -57,10 +64,33 @@ li.clickable {
     /* margin-right: 30px; */
     width: 150px;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
 li {
     /* display: inline-block; */
     /* margin-right: 30px; */
     text-align: center;
+}
+
+.recents
+{
+    /* object-fit: fill; */
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin: auto;
+    background: black;
+}
+
+.recents figure
+{
+    margin: auto;
+    width : 300px;
+    text-align: center;
+}
+
+.recents figure img
+{
+    width : 100%;
+    border: 5px solid white;
 }
