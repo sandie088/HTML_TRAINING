@@ -2,7 +2,40 @@
     background: grey;
 }
 
-.gallery
+.test .container .row{
+    height: 50px;
+    background: grey;
+    border: 2px solid black;
+}
+
+.align-test .container .row
+{
+    height: 100px;
+    background: grey;
+}
+
+.align-test .container .row .col
+{
+    border: 2px solid black;
+}
+
+/* .gallery
 {
     display: inline;
+} */
+
+/* .row
+{
+    background: red;
+    border: 1px solid grey
+} */
+
+/* div.col
+{
+    border: 2px solid grey;
 }
+
+div.col-6
+{
+    border: 2px solid grey;
+} */
